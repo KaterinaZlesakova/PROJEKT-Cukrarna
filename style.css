@@ -28,6 +28,14 @@ html { box-sizing: border-box; }
 	#303339		tmavé pozadí patičky
 */
 
+body {
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
+	font-family: 'Lora', serif;
+}
+
+
 .telo {
 	width: 1100px;
 	margin: auto;
@@ -103,7 +111,7 @@ h1 {
 h1,
 h2,
 h3 {
-	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
 }
 
 h1 {
@@ -120,6 +128,9 @@ h3 {
 
 .herotext {
 	font-size: 24px;
+	margin: 0;
+	padding: 20px 20px 0 0;
+	width: 60%;
 	position: absolute;
 	flex-basis: 60%;
 	width: 660px;
@@ -161,30 +172,95 @@ h3 {
 	border-radius: 5px;
 }
 
+.druha {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.nab {
+	flex: 1 1 100%;
+}
+
 .nabidka {
 	display: flex;
-	background-color: #f0f0f0;
 	flex-wrap: nowrap;
+	width: 1100px;
+	flex: 0 1 1100px;
+	background-color: #f0f0f0;
+}
+
+.dort,
+.livance,
+.kolac,
+.buchticka {
+	display: flex;
+	flex: 0 0 calc(1100px / 4);
+}
+
+.obr1,
+.obr2,
+.obr3,
+.obr4 {
+	flex: 0 1 calc(1100px / 4);
+	border-radius: 5px 5px 0 0;
+	justify-content: space-evenly;
+}
+
+.tabulka {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.text1
+.text2,
+.text3,
+.text4 {
+	flex-grow: 0;
+	flex-shrink: 1;
+}
+
+
+/* 
+.druha {
+	background-color: #f0f0f0;
+	margin-bottom: 80px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .dort, 
 .livance, 
 .kolac, 
 .buchticka {
-	flex-basis: 200px;
-	flex-grow: 0;
-	flex-shrink: 1;
-	background-color: white;
+	display: flex;
 	border-radius: 5px;
 	margin: 0 15px;
+	flex-grow: 0;
+	flex-shrink: 1;
+	flex-basis: 25%;
+	justify-content: space-evenly;
+}
+
+.tabulka {
+	display: flex;
+	flex: 0 1 calc(100% / 4);
+	background-color: white;
+	flex-wrap: wrap;
+
 }
 
 .obr1, 
 .obr2,
 .obr3,
 .obr4 {
-	border-radius: 5px;
-}
+	flex: 0 1 25%;
+	border-radius: 5px 5px 0 0;
+	justify-content: space-evenly;
+	} 
+*/
+
+
 
 
 
@@ -195,10 +271,13 @@ h3 {
 	flex-grow: 1;
 }
 
-.druha {
-	/* width: 1100px; */
-	background-color: #f0f0f0;
+.dnesninabidka {
+	font-size: 36px;
+	color: #3e606b;
 }
+
+
+
 
 
 .peceni {
@@ -218,15 +297,6 @@ h3 {
 	border: 1px solid transparent;
 	border-radius: 5px;
 }
-
-
-
-body {
-	font-size: 18px;
-	line-height: 1,5;
-	color: #242424;
-}
-
 
 
 
