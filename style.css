@@ -203,7 +203,7 @@ h3 {
 
 .nab {
 	flex: 1 1 100%;
-	margin-left: 200px;
+	margin-left: 230px;
 }
 
 .nabidka {
@@ -221,7 +221,7 @@ h3 {
 .kolac,
 .buchticka {
 	display: flex;
-	flex: 1 1 25%;
+	flex: 1 0 calc(100% / 4);
 }
 
 .dort,
@@ -240,10 +240,10 @@ h3 {
 .obr3,
 .obr4 {
 	width: 100%;
-	height: 50%;
+	height: auto;
 	flex: 0 1 calc(1100px / 4);
 	border-radius: 10px 10px 0 0;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .tabulka {
