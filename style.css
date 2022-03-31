@@ -199,6 +199,7 @@ h3 {
 	background-color: #f0f0f0;
 	padding-top: 0;
 	padding-bottom: 80px;
+	padding-top: 80px;
 }
 
 .nab {
@@ -232,6 +233,13 @@ h3 {
 	padding-left: 30px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.dort,
+.livance,
+.kolac,
+.buchticka {
+	margin-right: 0;
 }
 
 
